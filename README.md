@@ -5,9 +5,11 @@ Search in Clojure...
 Things like:
 
 * Push
-* Genetic algorithms
+* [evolutionary algorithms](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
 * hill climbing
 * random chance
+
+Is this all [metaheuristic optimization](http://www.scholarpedia.org/article/Metaheuristic_Optimization)?
 
 Should have:
 
