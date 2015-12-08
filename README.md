@@ -11,7 +11,7 @@ Things like:
 
 Should have:
 
-* customizable output/logs so you can save resaults easily
+* customizable output/logs so you can save results easily
 * correct style
 * idiomatic code
 * complete test suite
