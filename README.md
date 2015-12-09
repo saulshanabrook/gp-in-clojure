@@ -2,14 +2,35 @@
 
 Search in Clojure...
 
-Things like:
+## Goals
+
+Should support:
 
 * Push
 * [evolutionary algorithms](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
 * hill climbing
 * random chance
+* [differential evolution](https://en.wikipedia.org/wiki/Differential_evolution)
+* [cuckoo search](https://en.wikipedia.org/wiki/Cuckoo_search)
 
-Is this all [metaheuristic optimization](http://www.scholarpedia.org/article/Metaheuristic_Optimization)?
+Basically a generalized library for
+[metaheuristic optimization](http://www.scholarpedia.org/article/Metaheuristic_Optimization)
+in Clojure.
+
+
+### Why should we have one library for all of these?
+
+It would allow us to easily compare different methods on
+the same input problem to understand their strengths 
+and weaknesses easily.
+
+
+
+
+
+
+
+### Meta
 
 Should have:
 
