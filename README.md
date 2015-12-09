@@ -25,8 +25,8 @@ the same input problem to understand their strengths
 and weaknesses easily.
 
 
-
-
+Since we are using Push, it makes the most sense to design
+around strategies we can use Push with.
 
 
 
