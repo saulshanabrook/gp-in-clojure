@@ -2,7 +2,7 @@
 
 Search in Clojure...
 
-## Goals
+## Problem Goals
 
 Should support:
 
@@ -13,9 +13,8 @@ Should support:
 * [differential evolution](https://en.wikipedia.org/wiki/Differential_evolution)
 * [cuckoo search](https://en.wikipedia.org/wiki/Cuckoo_search)
 
-Basically a generalized library for
-[metaheuristic optimization](http://www.scholarpedia.org/article/Metaheuristic_Optimization)
-in Clojure.
+Maybe a generalized library for
+[metaheuristic optimization](http://www.scholarpedia.org/article/Metaheuristic_Optimization)?
 
 
 ### Why should we have one library for all of these?
@@ -24,13 +23,19 @@ It would allow us to easily compare different methods on
 the same input problem to understand their strengths 
 and weaknesses easily.
 
-
 Since we are using Push, it makes the most sense to design
 around strategies we can use Push with.
 
+However, over generalization can be risky because it can 
+get more confusing.
+
+### What libraries are similar?
+
+* [inspyred](https://pythonhosted.org/inspyred/overview.html) 
+* [cilib](https://github.com/cirg-up/cilib)
 
 
-### Meta
+## Implementation Goals
 
 Should have:
 
@@ -39,3 +44,4 @@ Should have:
 * idiomatic code
 * complete test suite
 * feature parity with Clojush
+* Easy to mix/match different strategies/problems
