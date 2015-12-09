@@ -33,6 +33,9 @@ get more confusing.
 
 * [inspyred](https://pythonhosted.org/inspyred/overview.html) 
 * [cilib](https://github.com/cirg-up/cilib)
+* [PradisEO](http://paradiseo.gforge.inria.fr/index.php) ([docs](http://paradiseo.gforge.inria.fr/addon/eo/doc/index.html))
+* [tensorflow](https://www.tensorflow.org/) seems interesting because it is proven. It runs production ML at Google and 
+  also seems to be well documented. Interop w/ clojure might be possible, by going going from c++ -> java -> clojure, but that would probably be more trouble than its worth.
 
 
 ## Implementation Goals
