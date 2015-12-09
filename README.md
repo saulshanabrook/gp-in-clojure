@@ -38,7 +38,7 @@ get more confusing.
   also seems to be well documented. Interop w/ clojure might be possible, by going going from c++ -> java -> clojure, but that would probably be more trouble than its worth.
 
 
-## Implementation Goals
+### Implementation Goals
 
 Should have:
 
@@ -48,3 +48,9 @@ Should have:
 * complete test suite
 * feature parity with Clojush
 * Easy to mix/match different strategies/problems
+
+
+## Next steps
+
+* Find someone else to work on this with me over break?
+* Personally, a top down design would be most helpful to me at this point. Like where we sketch out a magical API that would exist and describe problems in it and interop with it and Push.
